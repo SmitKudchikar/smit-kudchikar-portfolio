@@ -11,12 +11,15 @@
 <body>
 
 <nav>
-    <img height="200px" width="200px" src="images\portfolio.jpeg" alt="Smit Kudchikar">
+    <img src="images/portfolio.jpeg" alt="Smit Kudchikar" class="profile-img">
+
     <div class="logo">SK</div>
 
     <ul>
+        <li><a href="#education">Education</a></li>
         <li><a href="#about">About</a></li>
         <li><a href="#skills">Skills</a></li>
+        <li><a href="#certifications">Certifications</a></li>
         <li><a href="#projects">Projects</a></li>
         <li><a href="#contact">Contact</a></li>
     </ul>
@@ -35,9 +38,51 @@
             passionate about Software Development, Java, Full Stack Development.
         </p>
 
-        <a href="Smit Kudchikar Resume Tnp.pdf" class="btn" download>
-            Download Resume
+        <a href="smit-kudchikar-resume.pdf"
+           class="btn"
+           download>
+           Download Resume
         </a>
+
+    </div>
+
+</section>
+
+<section id="education" class="card hidden">
+
+    <h2>Education</h2>
+
+    <div class="education-cards">
+
+        <div class="education-card">
+            <h3>Bachelor of Engineering (Information Technology)</h3>
+            <p>
+                Thakur College of Engineering and Technology<br>
+                University of Mumbai<br>
+                2023 - 2027<br>
+                CGPA: 8.04 / 10
+            </p>
+        </div>
+
+        <div class="education-card">
+            <h3>Higher Secondary Certificate (HSC) - Class XII</h3>
+            <p>
+                Sharadashram Vidyamandir<br>
+                Maharashtra State Board<br>
+                Year of Passing: 2023<br>
+                Percentage: 60.00%
+            </p>
+        </div>
+
+        <div class="education-card">
+            <h3>Secondary School Certificate (SSC) - Class X</h3>
+            <p>
+                Lady Engineer High School<br>
+                Maharashtra State Board<br>
+                Year of Passing: 2021<br>
+                Percentage: 85.80%
+            </p>
+        </div>
 
     </div>
 
@@ -47,30 +92,24 @@
 
     <h2>About Me</h2>
 
-<p>
-    I am a final-year Bachelor of Engineering student in Information Technology
-    with a strong interest in Software Development, Full Stack Development,
-    Artificial Intelligence, and modern web technologies. I enjoy designing and
-    building scalable applications that solve real-world problems and improve
-    user experiences.
+    <p>
+        I am a final-year Bachelor of Engineering student in Information
+        Technology with a strong interest in Software Development, Full Stack
+        Development, Artificial Intelligence, and modern web technologies.
 
-    My technical expertise includes Java, Spring Boot, Angular, JavaScript,
-    HTML, CSS, Docker, PostgreSQL, Git, GitHub, and API testing using Postman.
-    I am passionate about developing robust backend systems, creating responsive
-    user interfaces, and working with databases to build complete end-to-end
-    applications.
+        My technical expertise includes Java, Spring Boot, Angular,
+        JavaScript, HTML, CSS, Docker, PostgreSQL, Git, GitHub, and API
+        testing using Postman.
 
-    Throughout my academic journey, I have worked on projects such as a Blood
-    Bank Management System, an AI-Based Recruitment System, and an AI-Based
-    Deepfake Detection System. These projects have strengthened my knowledge of
-    software engineering principles, database management, machine learning, and
-    problem-solving techniques.
+        Throughout my academic journey, I have worked on projects such as a
+        Blood Bank Management System, an AI-Based Recruitment System, and an
+        AI-Based Deepfake Detection System.
 
-    I am continuously learning new technologies and best practices in software
-    development to enhance my technical skills. My goal is to begin my career
-    as a Software Engineer where I can contribute to innovative projects,
-    collaborate with talented teams, and grow as a technology professional.
-</p>
+        I am continuously learning new technologies and best practices in
+        software development. My goal is to begin my career as a Software
+        Engineer where I can contribute to innovative projects and grow as a
+        technology professional.
+    </p>
 
 </section>
 
@@ -95,7 +134,68 @@
 
 </section>
 
-<section id="projects" class="hidden">
+<section id="certifications" class="card hidden">
+
+    <h2>Certifications</h2>
+
+    <div class="certifications-cards">
+
+        <div class="certification-card">
+
+            <h3>Java Programming</h3>
+
+            <p>
+                Completed a comprehensive Java programming course covering
+                OOP, Collections Framework, Exception Handling and JDBC.
+            </p>
+
+            <a href="certifications/java-cer.png"
+               target="_blank"
+               class="btn">
+               View Certificate
+            </a>
+
+        </div>
+
+        <div class="certification-card">
+
+            <h3>Generative AI</h3>
+
+            <p>
+                Certification demonstrating knowledge of Generative AI,
+                Prompt Engineering and AI applications.
+            </p>
+
+            <a href="certifications/Gen-AI.pdf"
+               target="_blank"
+               class="btn">
+               View Certificate
+            </a>
+
+        </div>
+
+        <div class="certification-card">
+
+            <h3>Spring Boot Development</h3>
+
+            <p>
+                Certification covering REST APIs, Spring Boot,
+                Microservices and Backend Development.
+            </p>
+
+            <a href="certifications/spring-certificate.pdf"
+               target="_blank"
+               class="btn">
+               View Certificate
+            </a>
+
+        </div>
+
+    </div>
+
+</section>
+
+<section id="projects" class="card hidden">
 
     <h2>Projects</h2>
 
@@ -104,21 +204,24 @@
         <div class="project-card">
             <h3>Blood Bank Management System</h3>
             <p>
-                A comprehensive management system for tracking and managing blood inventory in a blood bank.
+                A comprehensive management system for tracking and managing
+                blood inventory in a blood bank.
             </p>
         </div>
 
         <div class="project-card">
-            <h3>AI based Recruitment System</h3>
+            <h3>AI Based Recruitment System</h3>
             <p>
-                An AI-powered recruitment system that automates candidate screening and shortlisting.
+                An AI-powered recruitment system that automates candidate
+                screening and shortlisting.
             </p>
         </div>
 
         <div class="project-card">
             <h3>AI Based Deepfake Detection System</h3>
             <p>
-                A deep learning-based system for detecting deepfake videos and images.
+                A deep learning-based system for detecting deepfake videos
+                and images.
             </p>
         </div>
 
@@ -131,14 +234,23 @@
     <h2>Contact</h2>
 
     <p>Email: smitkudchikar67@gmail.com</p>
+
     <p>Phone: +91 9702431983</p>
+
     <p>
         GitHub:
         <a href="https://github.com/SmitKudchikar" target="_blank">
             View Profile
         </a>
     </p>
- 
+
+    <p>
+        LinkedIn:
+        <a href="https://www.linkedin.com/in/smit-kudchikar-a23450234/" target="_blank">
+            View Profile
+        </a>
+    </p>
+
 </section>
 
 <footer>
